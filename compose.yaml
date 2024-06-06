@@ -1,6 +1,6 @@
 services:
   server:
-    image: table-recontruct
+    image: duy1009/table-recontruct
     build: 
       context: .
     command: sh -c "uvicorn main:app --port 8001 --reload --host 0.0.0.0"
