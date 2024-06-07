@@ -1,7 +1,7 @@
 ## Setup on server
 1. Pull image
 ```
-docker pull duy1009/table-recontruct
+docker pull duy1009/table-recontruct:1.0
 ```
 
 2. Run:
