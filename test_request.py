@@ -3,7 +3,7 @@ import requests
 HOST = '127.0.0.1'
 PORT = '8001'
 
-image_path = r"/home/hungdv/tcgroup/Clone_project/table_reconstruction/img_test/B.png"
+image_path = r"B.png"
 
 def htmlTableAPI(img_path):
     files = {"image": open(img_path, 'rb')}
